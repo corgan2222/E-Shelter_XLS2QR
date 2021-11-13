@@ -10,6 +10,12 @@ import logging
 from rich.logging import RichHandler
 from PyPDF2 import PdfFileMerger, PdfFileReader
 
+from reportlab.graphics import renderPDF
+from reportlab.pdfgen import canvas
+import qrcode
+import qrcode.image.svg
+from svglib.svglib import svg2rlg
+
 import openpyxl
 import createQR
 
