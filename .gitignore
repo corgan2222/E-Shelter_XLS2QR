@@ -117,3 +117,6 @@ dmypy.json
 data/output
 data/output_pdf
 data/output_svg
+
+autoPytoExe
+autoPytoExe.json
